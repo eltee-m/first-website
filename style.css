@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+}
+body{
+    margin: 0px;
+}
+header{
+    margin: 0px;
+    background-color: #bce8d8;
+    text-align: center;
+}
+
+nav{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #7b79b5;
+}
+
+article{
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    margin: 0px;
+    background-color: #bce8d8;
+    text-align: center;
+}
