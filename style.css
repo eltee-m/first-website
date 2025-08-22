@@ -46,3 +46,22 @@ footer{
     background-color: #bce8d8;
     text-align: center;
 }
+
+ul.noBullets{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.noBullets li{
+    margin: 5px 0;
+    
+}
+
+.noBullets a{
+    display: inline-block;
+    border: 2px solid #9bc4d5;
+    width: 600px;
+    border-radius: 10px;
+}
