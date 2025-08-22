@@ -9,9 +9,12 @@ body{
     margin: 0px;
 }
 header{
+    display: flex;
     margin: 0px;
+    height: 50px;
     background-color: #bce8d8;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
@@ -40,8 +43,10 @@ section{
 }
 
 footer{
-    display: block;
-    clear: both;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     margin: 0px;
     background-color: #bce8d8;
     text-align: center;
@@ -58,10 +63,42 @@ ul.noBullets{
     margin: 5px 0;
     
 }
+fieldset{
+    text-align: center;
+    
+}
 
+legend{
+    font-size: x-large;
+}
+
+a:visited{
+    color: #0000EE;
+}
+
+.scoutImage{
+    display: flex;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+}
 .noBullets a{
     display: inline-block;
     border: 2px solid #9bc4d5;
     width: 600px;
     border-radius: 10px;
+}
+
+#scout{
+    width: 100px;
+    height: 100px;
+}
+
+.imageContainer img{
+    width: 100%;
+}
+.imageContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }

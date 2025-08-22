@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -11,29 +12,56 @@
     </header>
 
     <nav>
-        Main Form List Gallery
+        <span>
+            <a href="page-1.html">Main</a>
+        </span>
+
+        <span>
+            <a href="page-2.html">Form</a>
+        </span>
+        <span>
+            <a href="page-3.html">Web List</a>
+        </span>
+
+        <span>
+            <a href="page-4.html">Gallery</a>
+        </span>
     </nav>
 
     <form action="" method="get">
         <fieldset>
             <legend>What type of character are you</legend>
             
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
             
-            <label for="surname">Surname</label>
-            <input type="text" name="surname" id="surname">
-            
-            <label for="shinzou">Do you dedicate your heart to the cause</label>
+
+            <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Eren">
+            </div>
+
+            <div>
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname" placeholder="Jeagar"> 
+            </div>
+
+            <div>
+            <label for="shinzou">Do you dedicate your heart to the cause:</label>
             <input type="checkbox" name="shinzou" id="shinzou">
+            </div>
 
-            <label for="explanation">How have you contributed to the cause</label>
+            <div>
+            <label for="explanation">How have you contributed to the cause:</label>
             <textarea name="explanation" id="explanation">
-
             </textarea>
+            </div>
 
             <button type="submit">Submit</button>
+
         </fieldset>
     </form>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
 </body>
 </html>
